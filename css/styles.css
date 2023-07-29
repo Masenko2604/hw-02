@@ -99,8 +99,8 @@ color: #2E2F42;
   color: #4D5AE5;  
 }
 
-.hero-list-btn:hover,
-.hero-list-btn:focus {
+.buttons:hover,
+.buttons:focus {
 border: 2px dotted teal;
 color: teal;
 background-color: white;
