@@ -52,7 +52,7 @@ button {
 }
 
 .logo-list {
-  color: var(--navyblue, C;
+  color: var(--navyblue};
   font-family: Roboto;
   font-size: 16px;  
   font-weight: 500;
@@ -62,18 +62,8 @@ button {
   color: currentColor;
 }
 /* Heder address */
-.heder-address-mail {
-  color: var(--slate, #434455); 
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */ 
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  
-}
-.heder-address-tel {
+
+.heder-address-list-item {
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
