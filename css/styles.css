@@ -1,16 +1,18 @@
 /* Base styles */
 :root {
-  --primary-font: 'Montserrat', sans-serif;  
-  --logo-font:'Raleway', sans-serif;
-  --address-font: Roboto;
+  --primary-font: Roboto, sans-serif;
+  --link-logo-font: Raleway, sans-serif;  
   --primary-black-color: #212121;
   --primary-white-color: #ffffff;
-  --primary-accent-color: #E7E9FC;;
+  --primary-accent-color: #4d5ae5;
+  --secondary-accent-color: #e7e9fc;
   --primary-navyblue-color: #2E2F42;
-  --primary-slate-color: #434455; 
-}
+  --primary-slate-color: #434455;
+  --active-link-color: #404bbf;
+  --light-background-color: #f4f4fd;
+} 
 body {
-font-family: 'Montserrat', 'Raleway', 'Roboto', sans-serif;
+font-family: 'Raleway', 'Roboto', sans-serif;
 font-style: normal;
 }
 
@@ -199,13 +201,6 @@ background-color: white;
   line-height: 24px; /* 120% */
   letter-spacing: 0,02em; 
 }
-.team-list-p {
-color: var(--slate, #434455);
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0,02em;
-}
+
+
 
