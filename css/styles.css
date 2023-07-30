@@ -3,7 +3,7 @@
   --primary-font: Roboto, sans-serif;
   --link-logo-font: Raleway, sans-serif;
   --primavery-logo-color: #4d5ae5;
-  --span-logo-color: #2e2f42; 
+  --primavery-logo-color: #2e2f42; 
   --primary-black-color: #212121;
   --primary-white-color: #ffffff;
   --primary-accent-color: #4d5ae5;
@@ -19,6 +19,7 @@
   --primavery-team-caption: #2e2f42;
   --primavery-team-text:  #434455;
   --primavery-footer-text: #F4F4FD;
+  
 } 
 
 body {
@@ -50,8 +51,9 @@ button {
   color: #FFFFFF;  
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  list-style: none;
 }
-.logo {
+.logo-part-nav {
   color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -59,16 +61,21 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  list-style: none;
 }  
     
-.logo-list  {
+.nav-list  {
+  color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.5em;
   letter-spacing: 0.02em; 
   text-decoration: none; 
+  color: #2e2f42;
+  list-style: none;
 }
-.logo-list .link:hover {
+.logo-list .link:hover,
+.logo-list .link:fokus {
   color: #404bbf;
 }
   
@@ -108,7 +115,7 @@ button {
 }
   
 
-.hero-list-btn {  
+.hero-list-button {  
   background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
   font-weight: 500; 
@@ -117,8 +124,8 @@ button {
   color: #ffffff;
 
 }
-.hero-list-btn .link:hover,
-.hero-list-btnm .link:hover{
+.hero-btn .link:hover,
+.hero-btn .link:fokus {
   background-color: #404BBF;
 }
 
