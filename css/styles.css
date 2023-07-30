@@ -25,23 +25,24 @@
 body {
 font-family: Roboto, sans-serif;
 font-style: normal;
-color: #434455;
 background-color: #FFFFFF;
+font-size: 16px;
+font-weight: 400;
 }
 
 .link {
- color: currentColor;
+ color: var(--zlate);
  text-decoration: none;
+ letter-spacing: 0.02em;
+ line-height: 1.5;
 
 }
-.list {
-list-style: none;
-}
+
 button {
   font-family: inherit;
   cursor: pointer;
 }
-.heder {
+.heder-logo {
   font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
@@ -53,18 +54,17 @@ button {
   text-transform: uppercase;
   list-style: none;
 }
- .quote_text-part {
+.heder-logo {
   color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  list-style: none;
+  text-transform: uppercase; 
 }  
     
-.nav-list  {
+.header-page {
   color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -81,7 +81,7 @@ button {
   
 /* Heder address */  
 
-.address-list-item {
+.header-address {
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
@@ -101,29 +101,32 @@ button {
   flex-shrink: 0;
   color: #2E2F42;
   background-color: #2e2f42;
+  text-align: center;
 }
 .hero-title {
-  color: #ffffff
-  text-align: center;   
+  color: #ffffff    
   font-family: Roboto;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07em;
   letter-spacing: 0,02em;
+  text-align: center;
   
 }
   
 
-.hero-list-button {  
+.hero-list-button { 
+  color: #ffffff;
   background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
   font-weight: 500; 
   line-height: 1.5em;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  
 
 }
+
 .hero-btn .link:hover,
 .hero-btn .link:fokus {
   background-color: #404BBF;
