@@ -53,7 +53,7 @@ button {
   text-transform: uppercase;
   list-style: none;
 }
-.logo-part-nav {
+.part-nav {
   color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
