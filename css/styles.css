@@ -53,7 +53,7 @@ button {
   text-transform: uppercase;
   list-style: none;
 }
-.list-logo-part {
+ .quote_text-part {
   color: var(--iris);
   font-family: Raleway, sans-serif;
   font-size: 18px;
