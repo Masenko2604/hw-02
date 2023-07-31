@@ -77,11 +77,12 @@ button {
   color: #2e2f42;
   list-style: none;
   color: #404bbf
+  color: #2e2f42;
  
  
 }
 .pages-list-item .link:hover,
-.pages-list-item .link:fokus {
+.pages-list-item .link:focus {
   color: #404bbf;
 }
   
@@ -99,7 +100,7 @@ button {
   
 }
 .header-address .link:hover,
-.header-address .link:hover {
+.header-address .link:focus {
   color: #404bbf; 
 }
 /* Hero */
@@ -109,16 +110,15 @@ button {
   background-color: #2e2f42;
   text-align: center;
 }
-.hero-title {
-  line-height: 1.07em;
-  letter-spacing: 0,02em; 
+.hero-title {  
   color: var(--white, #FFF);
   text-align: center;
   font-family: Roboto;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-
+  line-height: 1.07em;
+  letter-spacing: 0,02em; 
 }
   
 
@@ -134,7 +134,7 @@ button {
 }
 
 .hero-list-btn .link:hover,
-.hero-list-btn .link:fokus {
+.hero-list-btn .link:focus {
   background-color: #404BBF;
 }
 
