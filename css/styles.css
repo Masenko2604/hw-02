@@ -53,7 +53,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;  
   list-style: none;
-  line-height: 1.17;
+  
 
 }
 .header-logo-dark {
@@ -64,7 +64,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase; 
   color: #2e2f42;
-  line-height: 1.17;
+  
 }  
     
 .pages-list-item {
@@ -81,8 +81,8 @@ button {
  
  
 }
-.pages-list-item .link:hover,
-.pages-list-item .link:focus {
+.pages-list-item :hover,
+.pages-list-item :focus {
   color: #404bbf;
 }
   
@@ -99,8 +99,8 @@ button {
   text-decoration: none; 
   
 }
-.header-address .link:hover,
-.header-address .link:focus {
+.header-address :hover,
+.header-address :focus {
   color: #404bbf; 
 }
 /* Hero */
@@ -120,8 +120,8 @@ button {
   line-height: 1.07em;
   letter-spacing: 0,02em; 
 }
-.hero-list-btn .link:hover,
-.hero-list-btn .link:focus {
+.hero-list-btn :hover,
+.hero-list-btn :focus {
   background-color: #404BBF;
 }
 
@@ -202,6 +202,7 @@ button {
 }
 .list-team-list {
   background-color: #FFFFFF;
+  letter-spacing: 0.02em;
 }
 
 .team-list-img {
