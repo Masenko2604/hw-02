@@ -134,8 +134,8 @@ font-family: "Roboto", sans-serif;
 
 }
 
-.hero-list-btn .btn:hover,
-.hero-list-btn .btn:focus {
+.hero-list-btn:hover,
+.hero-list-btn:focus {
  background-color: #404BBF;
 }  
 
