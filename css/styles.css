@@ -98,12 +98,16 @@ cursor: pointer;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #404bbf; 
+  color: #434455;
   
 }
 .header-address:hover,
 .header-address:focus {
-  color: #404bbf;
-  
+  color: #404bbf;  
+}
+
+.header-address-list {
+  color: #434455;
 }
 /* Hero */
 .hero {  
