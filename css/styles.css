@@ -41,8 +41,8 @@ color: #434455;
 }
 
 button {
-  font-family: inherit;
-  cursor: pointer;
+font-family: inherit;
+cursor: pointer;
   
 }
 .header-logo {
@@ -81,8 +81,8 @@ button {
   color: #2e2f42; 
 }
 
-.pages .pages:hover,
-.pages .pages:focus {     
+.pages-list-item:hover,
+.pages-list-item:focus {     
    color: #404bbf;
 }
   
@@ -99,8 +99,8 @@ button {
   text-decoration: none; 
   
 }
-.header-address .address:hover,
-.header-address .address:focus {
+.header-address:hover,
+.header-address:focus {
   color: #404bbf; 
 }
 /* Hero */
@@ -213,7 +213,7 @@ font-family: "Roboto", sans-serif;
   font-size: 20px; 
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0,02em; 
+  letter-spacing: 0.02em; 
 }
 .team-list-text{
   font-size: 16px;
