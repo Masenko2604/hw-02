@@ -36,7 +36,7 @@ color: #434455;
  color: var(--zlate);
  text-decoration: none;
  letter-spacing: 0.02em;
- line-height: 1.5em;
+ line-height: 1.5;
 
 }
 
@@ -63,7 +63,7 @@ button {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 1.17em;  
+  line-height: 1.17;  
   text-transform: uppercase; 
   color: #2e2f42;
   
@@ -73,7 +73,7 @@ button {
   color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5em; 
+  line-height: 1.5; 
   text-decoration: none; 
   color: #2e2f42;
   list-style: none;
@@ -95,7 +95,7 @@ button {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none; 
   
@@ -118,9 +118,20 @@ button {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.07em;
+  line-height: 1.07;
   letter-spacing: 0.02em; 
+
 }
+.hero-list-btn {
+  color: var(--white, #FFF);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
 .hero-list-btn :hover,
 .hero-list-btn :focus {
  background-color: #404BBF;
@@ -132,7 +143,7 @@ button {
   background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
   font-weight: 500; 
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.04em;   
 }
 
@@ -146,7 +157,7 @@ button {
   color: #2e2f42; 
   font-size: 20px; 
   font-weight: 500;  
-  line-height: 1.2em;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 
   }
@@ -156,7 +167,7 @@ button {
   font-size: 16px;  
   font-weight: 400;
   line-height: 24px; /* 150% */
-  line-height: 1.5em;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 
   }
@@ -168,9 +179,8 @@ button {
   font-size: 36px;  
   font-weight: 700; 
   letter-spacing: 0.02em;
-  text-transform: capitalize;
-  line-height: 1.11em;
-  line-height: 1.17em;
+  text-transform: capitalize; 
+  line-height: 1.17;
 }
 
 .doing-list-img1{  
@@ -194,7 +204,7 @@ button {
   font-family: Roboto;
   font-size: 36px;  
   font-weight: 700;
-  line-height: 1.11em;
+  line-height: 1.11;
   letter-spacing: 0,02em;
   text-transform: capitalize;
   
@@ -215,7 +225,7 @@ button {
   font-family: Roboto;
   font-size: 20px; 
   font-weight: 500;
-  line-height: 1.2em;
+  line-height: 1.2;
   letter-spacing: 0,02em; 
 }
 .team-list-text{
@@ -237,7 +247,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;  
   list-style: none;
-  line-height: 1.17em;
+  line-height: 1.17;
 
 }
 
@@ -254,7 +264,7 @@ button {
 } 
 
 .footer-list-text {
-  line-height: 1.5em;
+  line-height: 1.5;
   color: #F4F4FD;
   letter-spacing: 0.02em;
 }
