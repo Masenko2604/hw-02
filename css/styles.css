@@ -89,7 +89,7 @@ button {
   
 /* Header address */  
 
-.address {
+.header-address {
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
@@ -100,8 +100,8 @@ button {
   text-decoration: none; 
   
 }
-.address .address:hover,
-.address .address:focus {
+.header-address .address:hover,
+.header-address .address:focus {
   color: #404bbf; 
 }
 /* Hero */
@@ -125,13 +125,13 @@ button {
 .hero-list-btn {
 color: var(--white, #FFF);
 /* Button Text */
-font-family: Roboto;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 background-color: #4d5ae5;
+font-family: "Roboto", sans-serif;
 
 }
 
