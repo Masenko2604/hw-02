@@ -20,7 +20,7 @@
   --primavery-footer-text: #F4F4FD;
   --primavery-page-color: #404bbf;
   --primavery-address-color: #434455;
-  
+  --primavery-header-color:  #434455;
 } 
 
 body {
@@ -223,9 +223,12 @@ font-family: "Roboto", sans-serif;
   letter-spacing: 0.02em;
 }
 /* Footer */
+.footer {
+  background-color:  #2e2f42;
+}
 .footer-logo {
   color: var(--iris, #4D5AE5);
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway",sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -237,11 +240,7 @@ font-family: "Roboto", sans-serif;
 
 }
 .footer-logo-dark {
-  color: var(--iris);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;  
+  color: var(--cloud, #F4F4FD);    
   text-transform: uppercase; 
   color: #2e2f42;
 }
