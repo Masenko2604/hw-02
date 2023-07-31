@@ -54,6 +54,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;  
   list-style: none;
+  line-height: 1.17;
   
 
 }
@@ -81,8 +82,8 @@ button {
  
  
 }
-.pages-list-item:hover,
-.pages-list-item:focus {  
+.pages-list-item :hover,
+.pages-list-item :focus {  
   background-color: #404BBF;
 }
   
@@ -99,8 +100,8 @@ button {
   text-decoration: none; 
   
 }
-.header-address:hover,
-.header-address:focus {
+.header-address :hover,
+.header-address :focus {
   color: #404bbf; 
 }
 /* Hero */
@@ -120,8 +121,8 @@ button {
   line-height: 1.07em;
   letter-spacing: 0.02em; 
 }
-.hero-list-btn:hover,
-.hero-list-btn:focus {
+.hero-list-btn :hover,
+.hero-list-btn :focus {
  background-color: #404BBF;
 }
   
@@ -169,6 +170,7 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   line-height: 1.11em;
+  line-height: 1.17em;
 }
 
 .doing-list-img1{  
@@ -186,7 +188,7 @@ button {
 .team {
   background-color: #F4F4FD; 
 }
-.team-title-list {
+.team-title {
   color: var(--navyblue, #2E2F42);
   text-align: center;       
   font-family: Roboto;
@@ -198,7 +200,7 @@ button {
   
  
 }
-.list-team-list {
+.team-list {
   background-color: #FFFFFF;
   letter-spacing: 0.02em;
 }
@@ -222,7 +224,7 @@ button {
   letter-spacing: 0.02em;
 
 }
-.list-footer-list {
+.footer-list {
   background-color:#2e2f42;
 }
 
@@ -239,7 +241,7 @@ button {
 
 }
 
-.link-footer-studio {
+.footer-studio {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
