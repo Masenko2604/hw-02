@@ -108,6 +108,7 @@ cursor: pointer;
 
 .header-address-list {
   color: #434455;
+  color: #404bbf;  
 }
 /* Hero */
 .hero {  
@@ -241,13 +242,14 @@ font-family: inherit;
   text-transform: uppercase;  
   list-style: none;
   line-height: 1.17; 
-  background-color:  #2e2f42; 
-
+  background-color:  #2e2f42;
+  
+ 
 }
-.footer-logo-dark {
-  color: var(--cloud, #F4F4FD);    
+.footer-logo-dark {  
   text-transform: uppercase; 
   color: #2e2f42;
+  color: #f4f4fd; 
 }
 
 .footer-page {
