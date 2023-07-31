@@ -36,7 +36,7 @@ color: #434455;
  color: var(--zlate);
  text-decoration: none;
  letter-spacing: 0.02em;
- line-height: 1.5;
+ line-height: 1.5em;
 
 }
 
@@ -58,7 +58,7 @@ button {
 }
 .header-logo-dark {
   color: var(--iris);
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;  
   letter-spacing: 0.03em;
@@ -94,7 +94,7 @@ button {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5em;
   letter-spacing: 0.02em;
   text-decoration: none; 
   
@@ -118,11 +118,11 @@ button {
   font-style: normal;
   font-weight: 700;
   line-height: 1.07em;
-  letter-spacing: 0,02em; 
+  letter-spacing: 0.02em; 
 }
 .hero-list-btn :hover,
 .hero-list-btn :focus {
-  background-color: #404BBF;
+ background-color: #404BBF;
 }
 
   
@@ -140,7 +140,7 @@ button {
 
 .indicators-section-list {
   font-family: Roboto;
-  letter-spacing: 0,02em;
+  letter-spacing: 0.02em;
 }
 .indicators-list-caption {
   color: #2e2f42; 
@@ -166,11 +166,10 @@ button {
   color: var(--navyblue, #2E2F42);  text-align: center;  
   font-family: Roboto;
   font-size: 36px;  
-  font-weight: 700;
-  line-height: 40px; /* 111.111% */
-  letter-spacing: 0,02em;
+  font-weight: 700; 
+  letter-spacing: 0.02em;
   text-transform: capitalize;
-  line-height: 1.11;
+  line-height: 1.11em;
 }
 
 .doing-list-img1{  
@@ -237,7 +236,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;  
   list-style: none;
-   line-height: 1.17;
+  line-height: 1.17em;
 
 }
 
