@@ -87,6 +87,11 @@ cursor: pointer;
 /* Header address */  
 
 .header-address {  
+  
+}
+
+.header-address-list-item {
+  color: #434455;
   font-family: Roboto; sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -94,7 +99,8 @@ cursor: pointer;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;  
-  color: #404bbf;
+  color: #404bbf;  
+  
   
 }
 .header-address-list:hover,
@@ -102,11 +108,6 @@ cursor: pointer;
   color: #404bbf;  
 }
 
-.header-address-list-item {
-  color: #434455; 
-  
-  
-}
 /* Hero */
 .hero {  
   flex-shrink: 0;
