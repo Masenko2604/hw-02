@@ -80,17 +80,16 @@ button {
   color: #404bbf
   color: #2e2f42;
  
- 
 }
-.pages-list-item .item:hover,
-.pages-list-item .item:focus {  
-  background-color: 
+
+.pages .pages:hover,
+.pages .pages:focus {     
    color: #404bbf ;
 }
   
 /* Header address */  
 
-.header-address {
+.address {
   color: var(--slate, #434455);
   font-family: Roboto;
   font-size: 16px;
@@ -101,8 +100,8 @@ button {
   text-decoration: none; 
   
 }
-.header-address .address:hover,
-.header-address .address:focus {
+.address .address:hover,
+.address .address:focus {
   color: #404bbf; 
 }
 /* Hero */
@@ -123,8 +122,8 @@ button {
   letter-spacing: 0.02em; 
 
 }
-.hero-btn {
-  color: var(--white, #FFF);
+.hero-list-btn {
+color: var(--white, #FFF);
 /* Button Text */
 font-family: Roboto;
 font-size: 16px;
@@ -132,10 +131,12 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+background-color: #4d5ae5;
 
 }
-.hero-btn .btn:hover,
-.hero-btn .btn:focus {
+
+.hero-list-btn .btn:hover,
+.hero-list-btn .btn:focus {
  background-color: #404BBF;
 }  
 
@@ -198,9 +199,8 @@ letter-spacing: 0.04em;
   font-size: 36px;  
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0,02em;
-  text-transform: capitalize;
   letter-spacing: 0.02em;
+  text-transform: capitalize;  
   background-color: #FFFFFF;
   
  
