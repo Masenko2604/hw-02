@@ -82,8 +82,8 @@ button {
  
  
 }
-.pages-list-item :hover,
-.pages-list-item :focus {  
+.pages-list-item .item:hover,
+.pages-list-item .item:focus {  
   background-color: 
    color: #404bbf ;
 }
@@ -101,8 +101,8 @@ button {
   text-decoration: none; 
   
 }
-.header-address :hover,
-.header-address :focus {
+.header-address .address:hover,
+.header-address .address:focus {
   color: #404bbf; 
 }
 /* Hero */
@@ -125,16 +125,17 @@ button {
 }
 .hero-btn {
   color: var(--white, #FFF);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
+/* Button Text */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
 
-.hero-btn :hover,
-.hero-btn :focus {
+}
+.hero-btn .btn:hover,
+.hero-btn .btn:focus {
  background-color: #404BBF;
 }  
 
