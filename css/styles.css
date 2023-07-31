@@ -107,8 +107,9 @@ cursor: pointer;
 }
 
 .header-address-list {
-  color: #434455;
-  color: #404bbf;  
+  color: var(--slate, #434455);
+  color: #404bbf;
+  
 }
 /* Hero */
 .hero {  
