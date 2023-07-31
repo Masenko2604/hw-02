@@ -100,8 +100,8 @@ cursor: pointer;
   text-decoration: none;      
   
 }
-.header-address-list:hover,
-.header-address-list:focus {
+.header-address-list-item:hover,
+.header-address-list-item:focus {
   color: #404bbf;  
 }
 
