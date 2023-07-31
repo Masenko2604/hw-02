@@ -43,6 +43,7 @@ color: #434455;
 button {
   font-family: inherit;
   cursor: pointer;
+  
 }
 .link-header-logo {
   color: var(--iris, #4D5AE5);
@@ -60,8 +61,8 @@ button {
   color: var(--iris);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  font-weight: 800;  
-  letter-spacing: 0.03em;
+  font-weight: 800;
+  line-height: 1.17em;  
   text-transform: uppercase; 
   color: #2e2f42;
   
@@ -71,8 +72,7 @@ button {
   color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5em;
-  letter-spacing: 0.02em; 
+  line-height: 1.5em; 
   text-decoration: none; 
   color: #2e2f42;
   list-style: none;
@@ -81,9 +81,9 @@ button {
  
  
 }
-.pages-list-item :hover,
-.pages-list-item :focus {
-  color: #404bbf;
+.pages-list-item:hover,
+.pages-list-item:focus {  
+  background-color: #404BBF;
 }
   
 /* Header address */  
@@ -99,8 +99,8 @@ button {
   text-decoration: none; 
   
 }
-.header-address :hover,
-.header-address :focus {
+.header-address:hover,
+.header-address:focus {
   color: #404bbf; 
 }
 /* Hero */
@@ -120,11 +120,10 @@ button {
   line-height: 1.07em;
   letter-spacing: 0.02em; 
 }
-.hero-list-btn :hover,
-.hero-list-btn :focus {
+.hero-list-btn:hover,
+.hero-list-btn:focus {
  background-color: #404BBF;
 }
-
   
 
 .hero-list-btn { 
