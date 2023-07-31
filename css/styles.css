@@ -46,13 +46,14 @@ button {
 }
 .header-logo {
   color: var(--iris, #4D5AE5);
-  font-family: Raleway. sans-serif;;
+  font-family: Raleway. sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   letter-spacing: 0.03em;
   text-transform: uppercase;  
   list-style: none;
+  line-height: 1.17;
 
 }
 .header-logo-dark {
@@ -63,9 +64,10 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase; 
   color: #2e2f42;
+  line-height: 1.17;
 }  
     
-.header-page {
+.pages-list-item {
   color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -76,9 +78,10 @@ button {
   list-style: none;
   color: #404bbf
  
+ 
 }
-.header-page .link:hover,
-.header-page .link:fokus {
+.pages-list-item .link:hover,
+.pages-list-item .link:fokus {
   color: #404bbf;
 }
   
@@ -95,8 +98,8 @@ button {
   text-decoration: none; 
   
 }
-.address-list-item .link:hover,
-.address-list-item .link:hover {
+.header-address .link:hover,
+.header-address .link:hover {
   color: #404bbf; 
 }
 /* Hero */
@@ -119,7 +122,7 @@ button {
 }
   
 
-.hero-list-button { 
+.hero-list-btn { 
   color: #ffffff;
   background-color: #4D5AE5;
   font-family: "Roboto", sans-serif;
@@ -130,8 +133,8 @@ button {
 
 }
 
-.hero-btn .link:hover,
-.hero-btn .link:fokus {
+.hero-list-btn .link:hover,
+.hero-list-btn .link:fokus {
   background-color: #404BBF;
 }
 
@@ -142,7 +145,7 @@ button {
   font-family: Roboto;
   letter-spacing: 0,02em;
 }
-.indicators-title {
+.indicators-list-caption {
   color: #2e2f42; 
   font-size: 20px; 
   font-weight: 500;  
@@ -151,7 +154,7 @@ button {
 
   }
 
-.indicators-text {
+.indicators-list-text {
   color: var(--slate, #434455);   
   font-size: 16px;  
   font-weight: 400;
@@ -161,22 +164,8 @@ button {
 
   }
 
-.indicators--list-item {
-  color: var(--slate, #434455); 
-  font-size: 16px;  
-  font-weight: 400;
-  line-height: 24px; /* 150% */
- }
-
-.indicators-list-caption {
-  color: var(--navyblue, #2E2F42);    
-  font-size: 20px;  
-  font-weight: 500;
-  line-height: 1.2em;    
-}
-
 /* We are doing */
-.doing-title {
+.list-doing-title {
   color: var(--navyblue, #2E2F42);  text-align: center;  
   font-family: Roboto;
   font-size: 36px;  
@@ -186,17 +175,14 @@ button {
   text-transform: capitalize;
 }
 
-.doing-list-item {
-
-}
-.doing-list-img-monitor{  
+.doing-list-img1{  
   color: #E7E9FC;
  
 }
-.doing-list-img-tabs {  
+.doing-list-img2 {  
   color: #E7E9FC;
 }
-.doing-list-img-telefon {
+.doing-list-img3 {
   color: #E7E9FC;  
 }
 
@@ -204,7 +190,7 @@ button {
 .team {
   background-color: #F4F4FD; 
 }
-.team-title {
+.team-title-list {
   color: var(--navyblue, #2E2F42);
   text-align: center;       
   font-family: Roboto;
@@ -215,8 +201,12 @@ button {
   text-transform: capitalize;
  
 }
-.team-list {
+.list-team-list {
   background-color: #FFFFFF;
+}
+
+.team-list-img {
+
 }
 .team-list-caption {
   color: var(--navyblue, #2E2F42);
@@ -227,25 +217,38 @@ button {
   line-height: 1.2em;
   letter-spacing: 0,02em; 
 }
-.team-text {
+.team-list-text{
   стиль font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
 
 }
-.footer {
+.footer-list {
   background-color:#2e2f42;
 }
 
 .footer-logo {
-  color: #4d5ae5;
-  color: #f4f4fd;
-}
-.footer-text {
-  line-height: 1.5em;
-  color: #F4F4FD;
-  color: #F4F4FD;
+  color: var(--iris, #4D5AE5);
+  font-family: Raleway. sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;  
+  list-style: none;
+   line-height: 1.17;
+
 }
 
+.link-footer-studio {
+  color: var(--iris);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 800;  
+  letter-spacing: 0.03em;
+  text-transform: uppercase; 
+  color: #2e2f42;
+  line-height: 1.17;
+}  
 
 
