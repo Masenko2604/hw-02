@@ -3,86 +3,180 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-    name="description"
-    content="Effective Solutions for Your Business"/>
-    <title>Business</title>
+    
     <!-- Font links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
-     rel="stylesheet">
-
+     rel="stylesheet">      
+    
+    <title>Business</title>    
+    <link rel="stylesheet" href="./css/styles.css"/>
      <!-- Normalize -->
      <link rel="stylesheet" 
      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
-
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
+     <a href='./index.html'>Студія</a>    
+    
   </head>
   <body>
-     <!-- Header section -->
+
+     <!-- Heder section -->
      <header>
-      <!-- Favicon -->
       <nav>
-          <a class="link header-logo" href="./index.html" 
-                    >Web<span class="header-logo-dark">Studio</span>
+          <a href="./index.html" class="link logo"
+          >Web<span class="list-logo-part">Studio</span>
           </a>     
-         <ul class="pages-list list">
-           <li class="pages-list-item">            
-            <a class="pages-list-item link" href="./index.html">Studio</a>            
+         <ul class="list-nav-link">
+           <li class="list-link-list">           
+            <a href="./index.html" class="link-nav-list-item">Studio</a>            
            </li> 
-           <li class="pages-list-item">
-            <a  class="pages-list-item link" href="./portfolio.html">Portfolio</a>           
+           <li class="list-link-list">
+            <a href="./portfolio.html" class="link nav-list-item">Portfolio</a>           
            </li>
-           <li class="pages-list-item"> 
-            <a class="pages-list-item link" href="">Contacts</a>             
+           <li class="list-link-list">
+            <a href="./contacts" class="link nav-list-item">Contacts</a>             
            </li>
          </ul>
       </nav>
          
-          <address class="header-address">
-            <ul class="list">
-            <li class="header-address-list">
-              <a class="header-address-list-item link" href="./mailto:info@devstudio.com.">info@devstudio.com
+          <address class="address-list">
+            <ul class="list-address-list">
+            <li class="heder-address-list-item">
+
+              <a href="./mailto:info@devstudio.com." class="link address-list-item">info@devstudio.com
               </a>
             </li>
-             <li class="header-address-list">
-             <a class="header-address-list-item link" href="./tel:+110001111111" >+11 (000) 111-11-11              
+             <li>
+             <a href="./tel:+110001111111" class="link address-list-item">+11 (000) 111-11-11              
              </a>                      
              </li>
                        
          </ul>   
         </address>                             
     </header>
+<main>
+    <!-- Filter section-->
+   <div><section class="filter"> 
+        <ul>
+          <li>
+            <button class="filter-list-btn"  type="button">All</button> 
+          </li>
+          <li>
+            <button class="filter-list-btn"  type="button">Web Site</button> 
+          </li>
+          <li>
+            <button class="filter-list-btn"  type="button">App</button> 
+          </li>
+          <li>
+            <button class="filter-list-btn"  type="button">Design</button> 
+          </li>
+          <li>
+            <button class="filter-list-btn"  type="button">Marketing</button> 
+          </li>        
 
-    <main>
-      <!--Hero section-->
-        
+        </ul>                                                                                 
 
-      <!--Indicators section-->
-        
-      <!--We are doing-->
-      
-      <!--Team card-->     
-      
-            
+     </section>
+    </div> 
 
-        <!--Footer section-->  
+    <!-- Projects section-->
+    <section class="projects-card-list">
+        <h1 class=" projects-card-title-list" hidden>projects-card_1</h1> 
 
-      <footer class="footer">
-        <a class="footer-logo_footer link" href="./index.html"         
+      <ul class="list-projects-card-list">
+            <!-- projects-card_1 -->
+         <li class="projects-card-list-item">
+            <img class="projects-list-img"
+            src="images/p.img1.jpg" alt="App"  width="264" height="260"/>             
 
-          >Web<span class="footer-logo-dark">Studio</span></a> 
+           <h2 class="projects-card-list-caption">Banking App Interface Concept</h2> 
+           <p class="projects-card-text">App</p>
+         </li>
+            <!-- projects-card_2 -->
+         <li class="projects-card-list-item">
+            <img class="projects-list-img"
+            src="images/p.img2.jpg" alt="Marketing"  width="264" height="260"/>             
 
-          <p class="footer-page">Increase the flow of customers
-         and sales for your business with
+           <h2 class="projects-card-list-caption">Cashless Payment</h2> 
+           <p class="projects-card-text">Marketing</p>
+           
+         </li>
+            <!-- projects-card_3 -->          
+         <li class="projects-card-list-item">
+            <img class="projects-list-img"
+            src="images/p.img3.jpg" alt="App"  width="264" height="260"/>             
+
+           <h2 class="projects-card-list-caption">Meditation App</h2> 
+           <p class="projects-card-text">App</p>
+         </li>
+
+           <!-- projects-card_4 -->
+         <li class="projects-card-list-item">
+            <img class="projects-list-img"
+            src="images/p.img4.jpg" alt="Marketing"  width="264" height="260" />             
+
+           <h2 class="projects-card-list-caption">Taxi Service</h2> 
+           <p class="projects-card-text">Marketing</p>
+           </li>
+
+           <!-- projects-card_5 -->
+         <li class="projects-card-list-item">
+            <img class="projects-list-img"
+            src="images/p.img5.jpg" alt="Design"  width="264" height="260" />             
+
+           <h2 class="projects-card-list-caption">Screen Illustrations</h2> 
+           <p class="projects-card-text"> Design</p>
+         </li>
+            <!-- projects-card_6 -->
+         <li class="projects-card-list-item">
+            <img class="projects-list-img"
+            src="images/p.img6.jpg" alt="Marketing"  width="264" height="260"/>             
+
+           <h2 class="projects-card-list-caption">Online Courses</h2> 
+           <p class="projects-card-text">Marketing</p>
+         </li>
+           <!-- projects-card_7 -->
+          <li class="projects-card-list-item">
+            <img class="projects-list-img"
+            src="images/p.img7.jpg" alt="Design" width="264" height="260"/>             
+
+           <h2 class="projects-card-list-caption">Instagram Stories Concept</h2> 
+           <p class="projects-card-text">Design</p>
+           </li>
+           <!-- projects-card_8 -->
+          <li class="projects-card-list-item">
+            <img class="projects-list-img"
+            src="images/p.img8.jpg" alt="Web Site"  width="264" height="260" />             
+
+           <h2 class="projects-card-list-caption">Organic Food</h2> 
+           <p class="projects-card-text">Web Site</p>
+           </li>
+           <!-- projects-card_9 -->
+          <li class="projects-card-list-item">
+            <img class="projects-list-img"
+            src="images/p.img9.jpg" alt="Web Site"  width="264" height="260" />             
+
+           <h2 class="projects-card-list-caption">Fresh Coffee</h2> 
+           <p class="projects-card-text">Web Site</p>
+           </li>
+      </ul>
+    </Section>
+
+</main>
+
+            <!--Footer section-->                          
+    <footer class="list-footer-list">
+       <a href="./index.html" class="logo link"
+        >Web<span class="studio-header">Studio</span></a>         
+       <p class="footer-list-text">Increase the flow of customers
+          and sales for your business with
           digital marketing & growth solutions.
-          </p> 
-      </footer>        
-      
-    </body>   
-    
+      </p> 
+    </footer>  
+
+</body>
+
+
 </html>
 
 
