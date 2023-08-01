@@ -249,10 +249,72 @@ font-family: inherit;
 
 .footer-page {
   color: var(--cloud, #F4F4FD);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5; 
   letter-spacing: 0.02em;
+}
+/* Portfolij */
+
+ /* Filter */
+.filter-section {
+
+}
+.filter-list-btn-list {  
+color: var(--white, #FFF);
+text-align: center;
+
+/* Button Text */
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04em;
+
+}
+..filter-list-btn {
+color: var(--iris, #4D5AE5);
+text-align: center;
+
+/* Button Text */
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5; 
+letter-spacing: 0.4em;
+}
+/* Projects */
+.projects-card-list {
+
+}
+
+
+
+
+.list-projects-card {
+
+}
+.projects-card-list-item {
+
+}
+.projects-list-img {
+
+background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
+}
+
+.projects-card-list-caption {
+  
+}
+.projects-list-btn {
+  color: var(--slate, #434455);  
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; 
+  letter-spacing: 2em;
 }
