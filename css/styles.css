@@ -21,7 +21,9 @@
   --primavery-page-color: #404bbf;
   --primavery-address-color: #434455;
   --primavery-header-color:  #434455;
-} 
+  --primavery-filter-color: #4d5ae5;
+  --light-background-color: #F4F4FD;
+
 
 body {
 font-family: Roboto, sans-serif;
@@ -125,7 +127,6 @@ cursor: pointer;
 }
 .hero-list-btn {
 color: var(--white, #FFF);
-/* Button Text */
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
@@ -134,7 +135,6 @@ letter-spacing: 0.04em;
 background-color: #4d5ae5;
 font-family: "Roboto", sans-serif;
 font-family: inherit;
-
 }
 
 .hero-list-btn:hover,
@@ -178,7 +178,7 @@ font-family: inherit;
   line-height: 1.11;
 }
 
-.doing-list-img{  
+.doing-list-img {  
   color: #E7E9FC; 
 }
 
@@ -272,6 +272,7 @@ font-family: inherit;
     color: var(--white, #FFF);
     cursor: pointer;
     background: var(--ocean, #404BBF);
+    font-family: inherit;
     }
  .filter-list-btn:hover,
  .filter-list-btn:focus {
