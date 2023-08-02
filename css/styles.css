@@ -259,46 +259,34 @@ font-family: inherit;
 /* Portfolij */
 
  /* Filter */
-.filter {
 
-}
-.filter-list-btn_1 { 
-text-align: center;
-list-style: none;
-font-family: "Roboto", sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: var(--white, #FFF);
-cursor: pointer;
-background: var(--ocean, #404BBF);
-}
-.filter-list-btn:hover,
-.filter-list-btn:focus {
-  color: #FFFFFF;
-  background-color: #404BBF;
+..filters-list-list {   
+    text-align: center;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white, #FFF);
+    cursor: pointer;
+    background: var(--ocean, #404BBF);
+    }
+  .filter-list-btn-list:hover,
+  .filter-list-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    }
 
-}
-..filter-list-btn {
+.filter-list-btn {
 color: var(--iris, #4D5AE5);
-text-align: center;
-
-/* Button Text */
-font-family: "Roboto", sans-serif;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
 
 }
 /* Projects */
 .projects-card-list {
 
 }
-
-
-
 
 .list-projects-card {
 
