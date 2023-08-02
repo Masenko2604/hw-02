@@ -260,7 +260,7 @@ font-family: inherit;
 
  /* Filter */
 
-..filters-list-list {   
+.filters-section {   
     text-align: center;
     list-style: none;
     font-family: "Roboto", sans-serif;
@@ -273,13 +273,13 @@ font-family: inherit;
     cursor: pointer;
     background: var(--ocean, #404BBF);
     }
-  .filter-list-btn-list:hover,
-  .filter-list-btn:focus {
+  .filters-section:hover,
+  .filters-sect:focus {
     color: #FFFFFF;
     background-color: #404BBF;
     }
 
-.filter-list-btn {
+.filters-btn-list {
 color: var(--iris, #4D5AE5);
 
 }
