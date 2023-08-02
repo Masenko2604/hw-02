@@ -258,9 +258,9 @@ font-family: inherit;
 }
 /* Portfolij */
 
- /* Filter */
+ /* Filter section*/
 
-.filters-section {   
+ .filter-list-btn {   
     text-align: center;
     list-style: none;
     font-family: "Roboto", sans-serif;
@@ -273,8 +273,8 @@ font-family: inherit;
     cursor: pointer;
     background: var(--ocean, #404BBF);
     }
-  .filters-section:hover,
-  .filters-sect:focus {
+ .filter-list-btn:hover,
+ .filter-list-btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
     }
