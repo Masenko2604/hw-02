@@ -315,7 +315,7 @@ background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
 .projects-card-list-caption {
   
 }
-.projects-list {
+.projects-list-btn{
   color: var(--slate, #434455);  
   font-family: "Roboto", sans-serif;
   font-size: 16px;
