@@ -260,7 +260,7 @@ font-family: inherit;
 
  /* Filter */
 
-.filters-list-list {   
+.filter-list-btn list {   
     text-align: center;
     list-style: none;
     font-family: "Roboto", sans-serif;
@@ -273,8 +273,8 @@ font-family: inherit;
     cursor: pointer;
     background: var(--ocean, #404BBF);
     }
-  .filter-list-btn-list:hover,
-  .filter-list-btn:focus {
+  .filter-list-btn list:hover,
+  .filter-list-btn list:focus {
     color: #FFFFFF;
     background-color: #404BBF;
     }
@@ -288,10 +288,6 @@ color: var(--iris, #4D5AE5);
 
 }
 /* Projects */
-.projects-card-list {
-
-}
-
 .list-projects-card {
 
 }
@@ -300,14 +296,13 @@ color: var(--iris, #4D5AE5);
 
 }
 .projects-list-img {
-
 background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
 }
 
 .projects-card-list-caption {
   
 }
-.projects-list-btn{
+.projects-card-list-text {
   color: var(--slate, #434455);  
   font-family: "Roboto", sans-serif;
   font-size: 16px;
