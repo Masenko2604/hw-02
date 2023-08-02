@@ -271,9 +271,9 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #4d5ae5;
-background-color: #F4F4FD;
+color: var(--white, #FFF);
 cursor: pointer;
+background: var(--ocean, #404BBF);
 }
 .filter-list-btn:hover,
 .filter-list-btn:focus {
@@ -304,6 +304,7 @@ font-weight: 500;
 
 }
 .projects-card-list-item {
+  list-style: none;
 
 }
 .projects-list-img {
@@ -314,7 +315,7 @@ background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
 .projects-card-list-caption {
   
 }
-.projects-list-btn {
+.projects-list {
   color: var(--slate, #434455);  
   font-family: "Roboto", sans-serif;
   font-size: 16px;
