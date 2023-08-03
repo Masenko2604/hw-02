@@ -13,7 +13,7 @@
   --active-link-color: #404bbf;
   --light-background-color: #f4f4fd;
   --light-background-color:#2e2f42;
-  --light-background-btn-color:#F4F4FD;  
+  --primavery-background-btn-color:#F4F4FD;  
   --primavery-list-color: #2e2f42;
   --primavery-doing-title: #2e2f42;
   --primavery-team-title: #2e2f42;  
@@ -22,8 +22,9 @@
   --primavery-page-color: #404bbf;
   --primavery-address-color: #434455;
   --primavery-header-color:  #434455;
+  --primavery-btn-color:#4d5ae5;
 } 
-
+  nggggggggggggggggggggggggggggggggggggggggggggggg
 body {
 font-family: Roboto, sans-serif;
 font-style: normal;
@@ -263,7 +264,7 @@ font-family: inherit;
 .list filters-btn {
 
 }
-.filter-btn-list-btn {   
+.filter-list-btn-list {   
     text-align: center;
     list-style: none;
     font-family: "Roboto", sans-serif;
@@ -276,10 +277,11 @@ font-family: inherit;
     cursor: pointer;
     background: var(--ocean, #404BBF);
     }
+
 .filter-btn-list-btn:hover,
 .filter-btn-list-btn:focus {
-    color:#FFFFFF; 
-    background-color:#F4F4FD;
+    color:#FFFFFF;     
+    background-color: #404BBF;
     }  
 .filter-list-btn {
     color: var(--iris, #4D5AE5);
