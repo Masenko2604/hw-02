@@ -23,7 +23,7 @@
   --primavery-address-color: #434455;
   --primavery-header-color:  #434455;
   --primavery-filter-btn-color:#4d5ae5;
-  --light-background-filter-btn-color:#F4F4FD;
+  --primavery-background-filter-btn-color:#F4F4FD;
 } 
 
 
@@ -263,9 +263,9 @@ font-family: inherit;
 /* Portfolij */
 
  /* Filter */
-.list filters-btn {
-
+.filters-btn-list {
 }
+
 .filter-list-btn-list {   
     text-align: center;
     list-style: none;
