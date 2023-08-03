@@ -279,8 +279,8 @@ font-family: inherit;
     background: var(--ocean, #404BBF);
     }
 
-.filter-btn-list-btn:hover,
-.filter-btn-list-btn:focus {
+.filter-list-btn-list:hover,
+.filter-list-btn-list:focus {
     color:#FFFFFF;     
     background-color: #404BBF;
     }  
