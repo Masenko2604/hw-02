@@ -260,7 +260,7 @@ font-family: inherit;
 
  /* Filter */
 
-.filter-list-btn list {   
+.filter-list-btn {   
     text-align: center;
     list-style: none;
     font-family: "Roboto", sans-serif;
