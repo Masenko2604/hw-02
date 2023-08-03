@@ -22,7 +22,8 @@
   --primavery-page-color: #404bbf;
   --primavery-address-color: #434455;
   --primavery-header-color:  #434455;
-  --primavery-btn-color:#4d5ae5;
+  --primavery-filter-btn-color:#4d5ae5;
+  --light-background-filter-btn-color:#F4F4FD;
 } 
 
 
@@ -274,7 +275,7 @@ font-family: inherit;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: var(--white, #FFF);
+    color: #4d5ae5;
     cursor: pointer;
     background: var(--ocean, #404BBF);
     }
