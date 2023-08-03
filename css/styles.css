@@ -13,6 +13,7 @@
   --active-link-color: #404bbf;
   --light-background-color: #f4f4fd;
   --light-background-color:#2e2f42;
+  --light-background-color:#F4F4FD;  
   --primavery-list-color: #2e2f42;
   --primavery-doing-title: #2e2f42;
   --primavery-team-title: #2e2f42;  
@@ -273,20 +274,15 @@ font-family: inherit;
     cursor: pointer;
     background: var(--ocean, #404BBF);
     }
-  .filter-list-btn list:hover,
-  .filter-list-btn list:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
-    }
-
-
-
-
-
+.filter-list-btn:hover,
+.filter-list-btn:focus {
+    color:#FFFFFF; 
+    background-color:  #F4F4FD;
+    }  
 .filter-list-btn {
-color: var(--iris, #4D5AE5);
-
+    color: var(--iris, #4D5AE5);
 }
+color: #FFFFFF
 /* Projects */
 .list-projects-card {
 
