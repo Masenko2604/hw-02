@@ -13,7 +13,7 @@
   --active-link-color: #404bbf;
   --light-background-color: #f4f4fd;
   --light-background-color:#2e2f42;
-  --light-background-color:#F4F4FD;  
+  --light-background-btn-color:#F4F4FD;  
   --primavery-list-color: #2e2f42;
   --primavery-doing-title: #2e2f42;
   --primavery-team-title: #2e2f42;  
@@ -260,8 +260,10 @@ font-family: inherit;
 /* Portfolij */
 
  /* Filter */
+.list filters-btn {
 
-.filter-list-btn {   
+}
+.filter-btn-list-btn {   
     text-align: center;
     list-style: none;
     font-family: "Roboto", sans-serif;
@@ -274,15 +276,15 @@ font-family: inherit;
     cursor: pointer;
     background: var(--ocean, #404BBF);
     }
-.filter-list-btn:hover,
-.filter-list-btn:focus {
+.filter-btn-list-btn:hover,
+.filter-btn-list-btn:focus {
     color:#FFFFFF; 
-    background-color:  #F4F4FD;
+    background-color:#F4F4FD;
     }  
 .filter-list-btn {
     color: var(--iris, #4D5AE5);
 }
-color: #FFFFFF
+
 /* Projects */
 .list-projects-card {
 
