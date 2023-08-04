@@ -23,7 +23,7 @@
   --primavery-address-color: #434455;
   --primavery-header-color: #434455;
   --primavery-filter-btn-color: #4d5ae5;
-  --primavery-background-filter-btn-color: #F4F4FD;
+  --primavery-background-filter-color: #F4F4FD;
 } 
 
 
@@ -277,7 +277,7 @@ font-family: inherit;
     letter-spacing: 0.04em;
     color: #4d5ae5;
     cursor: pointer;
-    background: var(--ocean, #404BBF);
+    background: #F4F4FD;
     }
 
 .filter-list-btn-list:hover,
@@ -295,6 +295,7 @@ font-family: inherit;
 }
 .projects-card-list-item {
   list-style: none;
+  text-decoration: none;
 
 }
 .projects-list-img {
@@ -302,7 +303,13 @@ background:
 }
 
 .projects-card-list-caption {
-  
+  color: var(--navyblue, #2E2F42);  
+  font-family: "Roboto", sans-serif;  
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; 
+  letter-spacing: 0.02em; 
 }
 .projects-card-list-text {
   color: var(--slate, #434455);  
@@ -311,6 +318,7 @@ background:
   font-style: normal;
   font-weight: 400;
   text-decoration: none;
+  
 }
 
   
