@@ -286,7 +286,7 @@ font-family: inherit;
     background-color: #404BBF;
     }  
 .filter-list-btn {
-    color: var(--iris, #4D5AE5);
+  color: #4d5ae5;
 }
 
 /* Projects */
