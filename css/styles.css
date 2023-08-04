@@ -12,18 +12,18 @@
   --primary-slate-color: #434455;
   --active-link-color: #404bbf;
   --light-background-color: #f4f4fd;
-  --light-background-color:#2e2f42;
-  --primavery-background-btn-color:#F4F4FD;  
+  --light-background-color: #2e2f42;
+  --primavery-background-btn-color: #F4F4FD;  
   --primavery-list-color: #2e2f42;
   --primavery-doing-title: #2e2f42;
   --primavery-team-title: #2e2f42;  
-  --primavery-team-text:  #434455;
+  --primavery-team-text: #434455;
   --primavery-footer-text: #F4F4FD;
   --primavery-page-color: #404bbf;
   --primavery-address-color: #434455;
-  --primavery-header-color:  #434455;
-  --primavery-filter-btn-color:#4d5ae5;
-  --primavery-background-filter-btn-color:#F4F4FD;
+  --primavery-header-color: #434455;
+  --primavery-filter-btn-color: #4d5ae5;
+  --primavery-background-filter-btn-color: #F4F4FD;
 } 
 
 
@@ -298,7 +298,7 @@ font-family: inherit;
 
 }
 .projects-list-img {
-background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
+background:  
 }
 
 .projects-card-list-caption {
@@ -310,5 +310,8 @@ background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  
+  text-decoration: none;
 }
+
+  
+
