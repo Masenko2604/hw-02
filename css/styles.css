@@ -24,6 +24,7 @@
   --primavery-header-color: #434455;
   --primavery-filter-btn-color: #4d5ae5;
   --primavery-background-filter-color: #F4F4FD;
+  --primavery-caption-color:#2e2f42;
 } 
 
 
@@ -303,14 +304,14 @@ font-family: inherit;
 background:  
 }
 
-.projects-card-list-caption {
-  color: var(--navyblue, #2E2F42);  
+.projects-card-list-caption {   
   font-family: "Roboto", sans-serif;  
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.2; 
   letter-spacing: 0.02em; 
+  color:#2e2f42;
 }
 .projects-card-list-text {
   color: var(--slate, #434455);  
