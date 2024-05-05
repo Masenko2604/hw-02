@@ -97,7 +97,7 @@ cursor: pointer;
 
 .header-address-list-item {
   color: #434455;
-  font-family: Roboto; sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 16px;  
   font-weight: 400;
   line-height: 1.5;
@@ -264,8 +264,6 @@ font-family: inherit;
 /* Portfolij */
 
  /* Filter */
-.filters-btn-list {
-}
 
 .filter-list-btn-list {   
     text-align: center;
@@ -299,9 +297,6 @@ font-family: inherit;
   list-style: none;
   text-decoration: none;
 
-}
-.projects-list-img {
-background:  
 }
 
 .projects-card-caption {   
